@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie Recommendation App</title>
+	<link rel="stylesheet" href="file.css">
+</head>
+<body>
+	<header>
+		<h1>Movie Recommendation App</h1>
+		<input type="text" id="search" placeholder="Search for a movie...">
+	</header>
+	<main>
+		<section id="suggestions">
+			<h2>Based on your preferences:</h2>
+			<ul id="suggested-movies">
+				<!-- suggested movies will be added dynamically with JavaScript -->
+			</ul>
+		</section>
+		<section id="movie-info">
+			<h2>Movie Information:</h2>
+			<p><strong>Title:</strong> <span id="movie-title"></span></p>
+			<p><strong>Genre:</strong> <span id="movie-genre"></span></p>
+			<p><strong>Director:</strong> <span id="movie-director"></span></p>
+			<p><strong>Rating:</strong> <span id="movie-rating"></span></p>
+		</section>
+	</main>
+	<script src="app.js"></script>
+</body>
+</html>
